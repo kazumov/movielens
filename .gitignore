@@ -14,8 +14,12 @@
 # Output files from R CMD check
 /*.Rcheck/
 
+# OS files
+.DS_Store
+
 # RStudio files
 .Rproj.user/
+.RDataTmp
 
 # produced vignettes
 vignettes/*.html
@@ -34,3 +38,27 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+
+# Data files
+*.Rds
+edx.Rda
+validation.Rda
+
+# Report_files
+/report_files/
+/report_cache/
+
+# Report processing
+report.*.md
+*.html
+
+# Delete, old and tmp script files
+*-delete.*
+*-tmp.*
+*-old.*
+
+# Project
+*.Rproj
+
+# Logs
+*.log
